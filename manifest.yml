@@ -1,0 +1,6 @@
+applications:
+- name: vcap-printer
+  memory: 1G
+  buildpack: java_buildpack_offline
+  random-route: true
+  path: target/vcapprinter-0.0.1-SNAPSHOT.jar
